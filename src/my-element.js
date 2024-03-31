@@ -109,7 +109,7 @@ export class MyElement extends LitElement {
         transition: border-color 0.25s;
       }
       button:hover {
-        border-color: #646cff;
+        border-color: var(--my-element-button-hover-border-color, #646cff);
       }
       button:focus,
       button:focus-visible {
